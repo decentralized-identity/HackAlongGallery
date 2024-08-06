@@ -1,0 +1,49 @@
+name: Accumulate Data
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  Automate_Generator_and_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+
+      - name: Set directory permissions
+        run: chmod -R 700 src/data
+
+      - name: Configure Git identity
+        run: |
+          git config --global user.name "pratap2018"
+          git config --global user.email "pratapmridha@gmail.com"
+
+
+      - name: Build
+        run: npm install && npm run build
+      - name: Stage data
+        run: git add src/data/*
+
+      - name: Commit changes
+        run: git commit -m "Updating Data"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+
+    
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.2
+        with:
+          branch: gh-pages
+          folder: dist

@@ -1,0 +1,10 @@
+{
+    "title": "Scale xyzProtocol",
+    "img": "https://www.dqindia.com/wp-content/uploads/2021/06/blockchain-hackathon.jpg",
+    "category": "Hackathon",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue.",
+    "team": "VoidEnigma",
+    "members": ["user1", "user2"],
+    "demonstrationVideo": "https://www.youtube.com/",
+    "githubRepo": "https://www.github.com/"
+}
