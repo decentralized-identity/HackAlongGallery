@@ -1,0 +1,10 @@
+{
+    "title": "Hackathon Solution title",
+    "img": "https://media.istockphoto.com/id/1281066221/vector/hackathon-doodle-set.jpg?s=612x612&w=0&k=20&c=9YC34PkEqw51ovE8aGPtVHMn_ZAYuerxfJT-Hr-RM-I=",
+    "category": "Hackathon",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue.",
+    "team": "Team Name",
+    "members": ["user1", "user2"],
+    "demonstrationVideo": "https://www.youtube.com/",
+    "githubRepo": "https://www.github.com/ "
+}
