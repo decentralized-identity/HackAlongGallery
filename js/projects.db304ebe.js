@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkDIF_Hackathon"]=self["webpackChunkDIF_Hackathon"]||[]).push([[176],{3773:function(n,t,c){c.r(t),c.d(t,{default:function(){return d}});var r=c(3396);const e={class:"container mx-auto"};function o(n,t,c,o,a,s){const u=(0,r.up)("ProjectsGrid");return(0,r.wg)(),(0,r.iD)("div",e,[(0,r.Wm)(u)])}var a=c(4552),s={name:"Projects",components:{ProjectsGrid:a.Z}},u=c(89);const i=(0,u.Z)(s,[["render",o]]);var d=i}}]);
-//# sourceMappingURL=projects.db304ebe.js.map
