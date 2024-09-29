@@ -1,0 +1,10 @@
+{
+  "title": "Telegram bot ticket issuer",
+  "img": "https://raw.githubusercontent.com/limbertlino/schemas/refs/heads/main/images/logotype.png",
+  "category": "Hackathon",
+  "description": "DreamPark VC Ticketing is an innovative solution that combines Verifiable Credentials (VC) technology with a user-friendly Telegram bot interface. This project consists of two main components: a Rust-based API leveraging Extrimian's SSI services for issuing Verifiable Credentials, and a Telegram bot that consumes this API.\n\nThe system enables the seamless issuance of four types of personalized digital tickets for DreamPark, a fictional amusement park. Each ticket category is tailored to be stored in the Quarkid wallet, ensuring secure and convenient access for visitors.\n\nOur Telegram bot streamlines the process for park employees, allowing them to easily generate and manage digital tickets as verifiable credentials. This not only enhances the visitor experience but also improves the park's operational efficiency.\n\nBoth the API and the Telegram bot are written in Rust, showcasing the power and performance of this language in building robust SSI solutions. While the main repository hosts the Telegram bot, the API repository (https://github.com/limbertlino/extrimian-dfi-ssi-hackalong-api) is also available for a comprehensive view of the project's architecture.",
+  "team": "Limbert",
+  "members": ["limbertlino"],
+  "demonstrationVideo": "https://youtu.be/cr-ta-chE0U",
+  "githubRepo": "https://github.com/limbertlino/extrimian-dfi-ssi-hackalong-telegram-bot"
+}
